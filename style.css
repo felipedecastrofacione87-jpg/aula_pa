@@ -128,3 +128,15 @@ p {
     max-width: 1000px;
     text-align: center;
 }
+
+.conteudo h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.informacoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
