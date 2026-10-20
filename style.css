@@ -169,10 +169,19 @@ p {
     margin-bottom: 0;
 }
 
+@media(max-width: 768px){
+
+
+.informacoes{
+    grid: 1fr;
+}
+
 .conteudo h2 {
     font-size: 1.6rem;
 }
 
 .info-card {
     padding: 22px;
+}
+
 }
