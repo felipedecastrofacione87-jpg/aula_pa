@@ -149,3 +149,14 @@ p {
     text-align: left;
     transition: 0.3s ease;
 }
+
+.info-card:hover {
+    transform: translateY(-5px);
+    border-color: red;
+}
+
+.info-card h3 {
+    color: red;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
