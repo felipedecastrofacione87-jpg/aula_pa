@@ -15,6 +15,13 @@ body {
     align-items: center;
     overflow: hidden;
     position: relative;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    flex-direction: column;
+    gap: 60px;
+    padding: 80px 20px;
 }
 
 body::before,
@@ -57,6 +64,8 @@ body::after {
     text-align: center;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
     transition: trasform 0.3s ease, border-color 0.3s ease;
+
+    flex-shrink: 0;
 }
 
 .card:hover {
@@ -173,7 +182,7 @@ p {
 
 
 .informacoes{
-    grid: 1fr;
+    grid-template-columns: 1fr;
 }
 
 .conteudo h2 {
