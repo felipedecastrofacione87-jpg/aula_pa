@@ -201,9 +201,14 @@ p {
     text-align: center;
 }
 
-.menu-estudo {
+.menu-estudos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
+}
+
+.menu-estudo a, .links-estudo a, .rodape-estudo {
+    color: aqua;
+    text-underline-offset: 4px;
 }
